@@ -1,17 +1,17 @@
 import React from 'react';
-import BodyComponent from "./body/BodyComponent";
-import HeaderComponent from "./header/HeaderComponent";
-import FooterComponent from "./footer/FooterComponent";
+import Header from './header/Header';
+import Footer from './footer/Footer';
+import Body from './body/Body';
 
 const MainComponent = () => {
-  return (
-    <div>
-      <HeaderComponent />
-      <BodyComponent />
-      <FooterComponent />
-    </div>
-  )
+    return (
+        <div>
+            <Header />
+            <Body />
+            <Footer />
+        </div>
+    );
 }
 
-export default MainComponent
+export default MainComponent;
 

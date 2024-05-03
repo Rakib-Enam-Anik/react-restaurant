@@ -21,7 +21,7 @@ class Navigation extends Component {
                 <Navbar dark color="dark" expand="sm">
                     <div className="container">
                         <NavbarToggler onClick={this.navToggle} />
-                        <NavbarBrand href="/">Bohubrihi Restaurant</NavbarBrand>
+                        <NavbarBrand href="/">Allahar Dan Restaurant</NavbarBrand>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav className="mr-auto" navbar>
                                 <NavItem>
